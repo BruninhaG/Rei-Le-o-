@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="icon" type="image/png" href="./assets/leao.png">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" defer src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script defer src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="main.js"></script>
+    <title>O Rei Leão</title>
+</head>
+<body>
+    <audio id="background-music" loop>
+      <source
+        src="./assets/Mufasa-_O-Rei-Leão_-Milele.mp3"
+        type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <button id="play-pause-button">
+      <ion-icon class="audio-icon" id="play-music" name="play"></ion-icon>
+      <ion-icon
+        class="audio-icon hidden"
+        id="pause-music"
+        name="pause"></ion-icon>
+    </button>
+
+    <div id="particles-js" class="particles"></div>
+
+    <div class="container">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              src="./assets/Timao&Pumba.jpg" />
+            <p>Timão & Pumba</p>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/Zazu.jpg" />
+            <p>Zazu</p>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/Sarabi.jpg" />
+            <p>Sarabi</p>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/Kiros.jpg" />
+            <p>Kiros</p>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/Mufasa.png" />
+            <p>Mufasa</p>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/Taka.png" />
+            <p>Taka/Scar</p>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/Rafiki.jpg" />
+            <p>Rafiki</p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </body>
+</html>
